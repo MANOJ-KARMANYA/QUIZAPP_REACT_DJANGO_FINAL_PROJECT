@@ -1,0 +1,112 @@
+{
+  "quizzes": [
+    {
+      "title": "React",
+      "color": "#FFF1E9",
+      "icon": "./assets/icon-html.svg",
+      "questions": [
+        {
+          "question": "What is React primarily used for?",
+          "options": [
+            "Styling web pages",
+            "Building user interfaces",
+            "Managing server-side data",
+            "Designing databases"
+          ],
+          "answer": "Building user interfaces"
+        },
+        {
+          "question": "What is JSX?",
+          "options": [
+            "JavaScript XML",
+            "JavaScript Extension",
+            "JSON Syntax",
+            "JavaScript Execution"
+          ],
+          "answer": "JavaScript XML"
+        }
+      ]
+    },
+    {
+      "title": "Angular",
+      "color": "#E0FDEF",
+      "icon": "./assets/icon-css.svg",
+      "questions": [
+        {
+          "question": "What is Angular primarily used for?",
+          "options": [
+            "Styling web pages",
+            "Building single-page applications",
+            "Managing server-side data",
+            "Designing databases"
+          ],
+          "answer": "Building single-page applications"
+        },
+        {
+          "question": "What is Angular's data binding?",
+          "options": [
+            "A way to link data between model and view",
+            "A method for styling components",
+            "A form validation tool",
+            "A way to manage application state"
+          ],
+          "answer": "A way to link data between model and view"
+        }
+      ]
+    },
+    {
+      "title": "Django",
+      "color": "#EBF0FF",
+      "icon": "./assets/icon-javascript.svg",
+      "questions": [
+        {
+          "question": "What is Django primarily used for?",
+          "options": [
+            "Building server-side applications",
+            "Styling web pages",
+            "Managing client-side state",
+            "Creating databases"
+          ],
+          "answer": "Building server-side applications"
+        },
+        {
+          "question": "What is the purpose of Django's 'migrations'?",
+          "options": [
+            "To handle database schema changes",
+            "To manage user authentication",
+            "To create static files",
+            "To manage routing"
+          ],
+          "answer": "To handle database schema changes"
+        }
+      ]
+    },
+    {
+      "title": ".NET",
+      "color": "#F6E7FF",
+      "icon": "./assets/icon-accessibility.svg",
+      "questions": [
+        {
+          "question": "What is .NET primarily used for?",
+          "options": [
+            "Building cross-platform applications",
+            "Styling web pages",
+            "Managing client-side state",
+            "Creating databases"
+          ],
+          "answer": "Building cross-platform applications"
+        },
+        {
+          "question": "What is ASP.NET?",
+          "options": [
+            "A framework for building web applications",
+            "A tool for managing databases",
+            "A library for client-side scripting",
+            "A development environment"
+          ],
+          "answer": "A framework for building web applications"
+        }
+      ]
+    }
+  ]
+}

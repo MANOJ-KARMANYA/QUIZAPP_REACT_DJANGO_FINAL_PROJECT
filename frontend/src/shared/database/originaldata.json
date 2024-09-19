@@ -1,0 +1,432 @@
+  {
+    "quizzes": [
+      {
+        "title": "React",
+        "color": "#FFF1E9",
+        "icon": "./assets/icon-html.svg",
+        "questions": [
+          {
+            "question": "What is React primarily used for?",
+            "options": [
+              "Styling web pages",
+              "Building user interfaces",
+              "Managing server-side data",
+              "Designing databases"
+            ],
+            "answer": "Building user interfaces"
+          },
+          {
+            "question": "What is a component in React?",
+            "options": [
+              "A function that handles HTTP requests",
+              "A reusable piece of UI",
+              "A database query",
+              "A state management library"
+            ],
+            "answer": "A reusable piece of UI"
+          },
+          {
+            "question": "Which method is used to update the state in a class component?",
+            "options": [
+              "setState()",
+              "updateState()",
+              "changeState()",
+              "modifyState()"
+            ],
+            "answer": "setState()"
+          },
+          {
+            "question": "What is JSX?",
+            "options": [
+              "JavaScript XML",
+              "JavaScript Extension",
+              "JSON Syntax",
+              "JavaScript Execution"
+            ],
+            "answer": "JavaScript XML"
+          },
+          {
+            "question": "What is the purpose of 'props' in React?",
+            "options": [
+              "To manage the component's local state",
+              "To pass data from parent to child components",
+              "To handle component lifecycle",
+              "To define styling for components"
+            ],
+            "answer": "To pass data from parent to child components"
+          },
+          {
+            "question": "Which hook is used to manage local state in a functional component?",
+            "options": [
+              "useEffect",
+              "useState",
+              "useReducer",
+              "useContext"
+            ],
+            "answer": "useState"
+          },
+          {
+            "question": "What is React's Virtual DOM?",
+            "options": [
+              "A copy of the real DOM",
+              "A method for styling components",
+              "A state management tool",
+              "A way to manage component life cycles"
+            ],
+            "answer": "A copy of the real DOM"
+          },
+          {
+            "question": "How do you handle events in React?",
+            "options": [
+              "Using event handlers as attributes in JSX",
+              "By adding event listeners in the constructor",
+              "Using a separate event management library",
+              "By directly modifying the DOM"
+            ],
+            "answer": "Using event handlers as attributes in JSX"
+          },
+          {
+            "question": "What is 'useEffect' used for in React?",
+            "options": [
+              "To fetch data from APIs",
+              "To handle side effects in functional components",
+              "To manage global state",
+              "To perform routing"
+            ],
+            "answer": "To handle side effects in functional components"
+          },
+          {
+            "question": "What is React Router used for?",
+            "options": [
+              "Handling state management",
+              "Routing in single-page applications",
+              "Styling components",
+              "Making API requests"
+            ],
+            "answer": "Routing in single-page applications"
+          }
+        ]
+      },
+      {
+        "title": "Angular",
+        "color": "#E0FDEF",
+        "icon": "./assets/icon-css.svg",
+        "questions": [
+          {
+            "question": "What is Angular primarily used for?",
+            "options": [
+              "Styling web pages",
+              "Building single-page applications",
+              "Managing server-side data",
+              "Designing databases"
+            ],
+            "answer": "Building single-page applications"
+          },
+          {
+            "question": "Which of the following is a core concept of Angular?",
+            "options": [
+              "Components",
+              "Directives",
+              "Services",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What is Angular's data binding?",
+            "options": [
+              "A way to link data between model and view",
+              "A method for styling components",
+              "A form validation tool",
+              "A way to manage application state"
+            ],
+            "answer": "A way to link data between model and view"
+          },
+          {
+            "question": "What is an Angular Module?",
+            "options": [
+              "A function for HTTP requests",
+              "A container for a collection of components, directives, pipes, and services",
+              "A method for managing state",
+              "A form of routing in Angular"
+            ],
+            "answer": "A container for a collection of components, directives, pipes, and services"
+          },
+          {
+            "question": "Which directive is used for conditional rendering in Angular?",
+            "options": [
+              "*ngIf",
+              "*ngFor",
+              "*ngSwitch",
+              "*ngClass"
+            ],
+            "answer": "*ngIf"
+          },
+          {
+            "question": "What is Angular's Dependency Injection used for?",
+            "options": [
+              "Providing services to components",
+              "Managing component life cycles",
+              "Handling user input",
+              "Routing in the application"
+            ],
+            "answer": "Providing services to components"
+          },
+          {
+            "question": "What is a Pipe in Angular?",
+            "options": [
+              "A component that manages state",
+              "A service that handles HTTP requests",
+              "A way to transform data in templates",
+              "A directive for creating forms"
+            ],
+            "answer": "A way to transform data in templates"
+          },
+          {
+            "question": "Which command is used to create a new Angular project?",
+            "options": [
+              "ng init",
+              "ng start",
+              "ng new",
+              "ng create"
+            ],
+            "answer": "ng new"
+          },
+          {
+            "question": "What is Angular CLI?",
+            "options": [
+              "A command-line interface for Angular",
+              "A tool for styling Angular applications",
+              "A service for managing HTTP requests",
+              "A module for creating components"
+            ],
+            "answer": "A command-line interface for Angular"
+          },
+          {
+            "question": "What is the purpose of 'ng serve' in Angular?",
+            "options": [
+              "To build the application",
+              "To start the development server",
+              "To deploy the application",
+              "To test the application"
+            ],
+            "answer": "To start the development server"
+          }
+        ]
+      },
+      {
+        "title": "Django",
+        "color": "#EBF0FF",
+        "icon": "./assets/icon-javascript.svg",
+        "questions": [
+          {
+            "question": "What is Django primarily used for?",
+            "options": [
+              "Building server-side applications",
+              "Styling web pages",
+              "Managing client-side state",
+              "Creating databases"
+            ],
+            "answer": "Building server-side applications"
+          },
+          {
+            "question": "Which of the following is a key feature of Django?",
+            "options": [
+              "ORM (Object-Relational Mapping)",
+              "Component-based architecture",
+              "Client-side rendering",
+              "Static site generation"
+            ],
+            "answer": "ORM (Object-Relational Mapping)"
+          },
+          {
+            "question": "What is the purpose of Django's 'migrations'?",
+            "options": [
+              "To handle database schema changes",
+              "To manage user authentication",
+              "To create static files",
+              "To manage routing"
+            ],
+            "answer": "To handle database schema changes"
+          },
+          {
+            "question": "What is Django's ORM used for?",
+            "options": [
+              "Connecting to external APIs",
+              "Mapping database tables to Python classes",
+              "Managing user sessions",
+              "Handling form submissions"
+            ],
+            "answer": "Mapping database tables to Python classes"
+          },
+          {
+            "question": "Which command is used to start a new Django project?",
+            "options": [
+              "django startproject",
+              "django new",
+              "django-admin startproject",
+              "django-admin new"
+            ],
+            "answer": "django-admin startproject"
+          },
+          {
+            "question": "What is a Django 'view'?",
+            "options": [
+              "A template for rendering HTML",
+              "A function or class that handles HTTP requests",
+              "A URL routing configuration",
+              "A database model"
+            ],
+            "answer": "A function or class that handles HTTP requests"
+          },
+          {
+            "question": "What is Django's 'admin' site?",
+            "options": [
+              "A built-in tool for managing application data",
+              "A user authentication system",
+              "A library for HTTP requests",
+              "A templating engine"
+            ],
+            "answer": "A built-in tool for managing application data"
+          },
+          {
+            "question": "How do you define a URL pattern in Django?",
+            "options": [
+              "Using URLconf",
+              "Using routing.js",
+              "Using url-patterns",
+              "Using route.conf"
+            ],
+            "answer": "Using URLconf"
+          },
+          {
+            "question": "What is a Django 'model'?",
+            "options": [
+              "A database schema representation",
+              "A template for views",
+              "A routing configuration",
+              "A static file"
+            ],
+            "answer": "A database schema representation"
+          },
+          {
+            "question": "How do you create a Django application?",
+            "options": [
+              "django-admin startapp",
+              "django create app",
+              "django new app",
+              "django-admin newapp"
+            ],
+            "answer": "django-admin startapp"
+          }
+        ]
+      },
+      {
+        "title": ".NET",
+        "color": "#F6E7FF",
+        "icon": "./assets/icon-accessibility.svg",
+        "questions": [
+          {
+            "question": "What is .NET primarily used for?",
+            "options": [
+              "Building cross-platform applications",
+              "Styling web pages",
+              "Managing client-side state",
+              "Creating databases"
+            ],
+            "answer": "Building cross-platform applications"
+          },
+          {
+            "question": "Which programming languages can be used with .NET?",
+            "options": [
+              "C#, F#, VB.NET",
+              "JavaScript, Python, Ruby",
+              "Java, PHP, Swift",
+              "Kotlin, Scala, Groovy"
+            ],
+            "answer": "C#, F#, VB.NET"
+          },
+          {
+            "question": "What is the purpose of the Common Language Runtime (CLR) in .NET?",
+            "options": [
+              "To execute .NET programs",
+              "To handle database connections",
+              "To manage user sessions",
+              "To style web pages"
+            ],
+            "answer": "To execute .NET programs"
+          },
+          {
+            "question": "What is ASP.NET?",
+            "options": [
+              "A framework for building web applications",
+              "A tool for managing databases",
+              "A library for client-side scripting",
+              "A development environment"
+            ],
+            "answer": "A framework for building web applications"
+          },
+          {
+            "question": "What is a .NET 'assembly'?",
+            "options": [
+              "A compiled code library",
+              "A user interface component",
+              "A database schema",
+              "A configuration file"
+            ],
+            "answer": "A compiled code library"
+          },
+          {
+            "question": "What is Entity Framework in .NET?",
+            "options": [
+              "An ORM framework for database access",
+              "A tool for web page styling",
+              "A library for handling HTTP requests",
+              "A debugging tool"
+            ],
+            "answer": "An ORM framework for database access"
+          },
+          {
+            "question": "What is the purpose of the .NET Core?",
+            "options": [
+              "To build cross-platform applications",
+              "To manage web server configurations",
+              "To handle authentication",
+              "To create desktop applications only"
+            ],
+            "answer": "To build cross-platform applications"
+          },
+          {
+            "question": "Which of the following is a .NET IDE?",
+            "options": [
+              "Visual Studio",
+              "Eclipse",
+              "NetBeans",
+              "Xcode"
+            ],
+            "answer": "Visual Studio"
+          },
+          {
+            "question": "What is Blazor in .NET?",
+            "options": [
+              "A framework for building interactive web UIs",
+              "A tool for managing data models",
+              "A library for HTTP requests",
+              "A static site generator"
+            ],
+            "answer": "A framework for building interactive web UIs"
+          },
+          {
+            "question": "What does the .NET Framework provide?",
+            "options": [
+              "A runtime environment and libraries",
+              "A database management system",
+              "A front-end framework",
+              "A code editor"
+            ],
+            "answer": "A runtime environment and libraries"
+          }
+        ]
+      }
+    ]
+  }

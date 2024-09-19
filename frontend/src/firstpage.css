@@ -1,0 +1,208 @@
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .login-buttons .icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  .take-quiz-btn .icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    margin-right: 50px;
+    margin-left: -50px;
+  }
+  
+  .big-text {
+    font-size: 144px;
+    font-weight: 500;
+    color: var(--dark-navy-color);
+  }
+  
+  .take-quiz-btn {
+    border: 0;
+    background-color: var(--purple-color);
+    color: whitesmoke;
+    border-radius: 24px;
+    padding: 16px 32px;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .take-quiz-btn:hover {
+      background-color: rgba(167, 41, 245, 0.5);
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: auto;
+  }
+  
+  
+  
+  .login-as {
+    margin-top: 20px;
+  }
+  
+  .login-as p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .small-text {
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .login-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn {
+    border: 0;
+    background-color: var(--purple-color);
+    color: var(--prue-white-color);
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .take-quiz-btn{
+      border: 0;
+    background-color: var(--purple-color);
+    color: whitesmoke;
+    border-radius: 26px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 600px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  
+  .login-btn-student:hover {
+      background-color: rgba(167, 41, 245, 0.5);
+  }
+  
+  .login-btn-student {
+    border: 0;
+    background-color: var(--purple-color);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
+    font-family: var(--main-font-family); 
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  
+  .login-btn-faculty {
+    border: 0;
+    background-color: rgb(167, 167, 167);
+    color: var(--prue-white-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
+    font-family: var(--main-font-family); 
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login-btn-admin {
+      border: 0;
+    background-color: rgb(167, 167, 167);
+    color: var(--prue-white-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
+    font-family: var(--main-font-family); 
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login-btn-student:hover {
+      background-color: rgba(167, 41, 245, 0.5);
+  }
+  
+  .login-btn-faculty:hover,
+  .login-btn-admin:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .home-content {
+      display: flex;
+  }
+
+
+
+
+
+
+  .image-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
